@@ -1,0 +1,40 @@
+{
+  "name": "nextjs-tailwind-hardhat-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "npx hardhat run ./scripts/deploy.js --network rinkeby",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/contracts-upgradeable": "^4.5.2",
+    "axios": "^0.25.0",
+    "ipfs-http-client": "^56.0.1",
+    "millify": "^4.0.0",
+    "next": "12.1.4",
+    "number-precision": "^1.5.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-icons": "^4.3.1",
+    "react-toastify": "^9.0.1",
+    "sass": "^1.35.1",
+    "web3": "^0.20.6",
+    "web3modal": "^1.9.5"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@openzeppelin/hardhat-upgrades": "^1.17.0",
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.4",
+    "ethers": "^5.6.2",
+    "hardhat": "^2.9.3",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
+}
